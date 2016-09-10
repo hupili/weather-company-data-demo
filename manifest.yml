@@ -1,9 +1,9 @@
 applications:
 - disk_quota: 1024M
-  name: weather-company-data-demo
-  host: weather-company-data-demo
+  name: weather-company-data-demo-hpl-test
+  host: weather-company-data-demo-hpl-test
   command: node app.js
   path: .
-  domain: mybluemix.net
+  domain: au-syd.mybluemix.net
   instances: 1
   memory: 512M
